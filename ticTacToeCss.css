@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(19, 104, 73);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.logo{
+    margin-left: 16px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: cursive;
+}
+.lsp1{
+    font-size: 18px;
+    color: rgb(255, 231, 12);
+}
+.lsp2{
+    font-size: 24px;
+    color: rgb(255, 219, 17);
+}
+.lsp3{
+    font-size: 15px;
+    color: rgb(255, 231, 12);
+}
+.main{
+    width: 100vw;
+    height: 93vh;
+    background-color: rgb(19, 104, 76);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    font-size: 48px;
+    margin-bottom: 38px;
+    color: rgb(209, 212, 17);
+}
+.game{
+    width: 50vw;
+    height: 57vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+.boxes{
+    width: 16vw;
+    height: 18vh;
+    font-size: 40px;
+    color: rgb(19, 104, 76);
+    border: none;
+    background-color: rgb(253, 244, 193);
+}
+
+.reset-btn{
+    border: 1px solid black;
+    border-radius: 4px;font-size: 16px;
+    width: 9.8vw;
+    height: 6vh;
+    color: rgb(19, 104, 76);
+    background-color: rgb(253, 244, 190);
+}
+
+@media(max-width:870px){
+    .message{
+        font-size: 40px;
+        margin-bottom: 35px;
+        color: rgb(209, 212, 17);
+    }
+    .reset-btn{
+        font-size: 16px;
+        width: 13.4vw;
+        height: 6vh;
+    }
+}
+
+@media(max-width:630px){
+    .reset-btn{
+        font-size: 15px;
+        width: 16.8vw;
+        height: 6vh;
+    }
+}
+@media(max-width:480px){
+    .reset-btn{
+        font-size: 14px;
+        width: 19.8vw;
+        height: 5vh;
+    }
+}
+@media(max-width:370px){
+    .reset-btn{
+        font-size: 14px;
+        width: 23.8vw;
+        height: 5vh;
+    }
+}
+
+/* media queries for boxes */
+@media(max-width:800px){
+    .game{
+        width: 51vw;
+        height: 58vh;
+    }
+    .boxes{
+        width: 16vw;
+        height: 18vh;
+    }
+}
+@media(max-width:720px){
+    .game{
+        width: 57vw;
+        height: 58vh;
+    }
+    .boxes{
+        width: 18vw;
+        height: 18vh;
+    }
+}
+@media(max-width:600px){
+    .game{
+        width: 58vw;
+        height: 58vh;
+    }
+    .boxes{
+        width: 18vw;
+        height: 18vh;
+    }
+}
+@media(max-width:440px){
+    .game{
+        width: 65vw;
+        height: 47vh;
+    }
+    .boxes{
+        width: 20vw;
+        height: 15vh;
+    }
+}
+
+@media(min-height:660px){
+    .game{
+        height: 41vh;
+        margin-bottom:50px;
+    }
+    .boxes{
+        height: 13vh;
+    }  
+    .reset-btn{
+        height: 4vh;
+    } 
+    .message{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-height:640px){
+    .game{
+        height: 38vh;
+        margin-bottom:50px;
+    }
+    .boxes{
+        height: 12vh;
+    }  
+    .reset-btn{
+        height: 4vh;
+    } 
+    .message{
+        margin-bottom: 50px;
+    }
+}
+
